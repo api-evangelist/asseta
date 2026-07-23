@@ -1,7 +1,26 @@
 aid: asseta
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/asseta.png
 name: Asseta
-description: Asseta is a company surfaced as a portfolio company of a16z, y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Asseta is a San Francisco-based online marketplace for the secondary
+  market in semiconductor manufacturing equipment and parts. Founded in 2013, the
+  platform lets fabs, refurbishers, and dealers list and discover used, refurbished,
+  and new components, ranging from chamber assemblies and power supplies to smaller
+  parts like o-rings, with more than 450,000 listings from suppliers around the world.
+  Buyers request quotes from global suppliers with a single click and typically save
+  50-60% versus OEM pricing. Asseta is a portfolio company of a16z and Y Combinator.
+  It publishes no public API, developer portal, SDK, or documentation surface at this
+  time; this profile captures the company identity and its published web properties.
 url: https://raw.githubusercontent.com/api-evangelist/asseta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Marketplace
+- Semiconductor
+- Equipment
+- Secondary Market
+- Procurement
+- Industrial
+- E-Commerce
 apis: []
+common:
+- type: DomainSecurity
+  url: security/asseta-domain-security.yml
+- type: Website
+  url: https://www.asseta.com
+- type: SignUp
+  url: https://www.asseta.com/sign_up
+- type: Login
+  url: https://www.asseta.com/login
+- type: Support
+  url: https://www.asseta.com/contact
+- type: TermsOfService
+  url: https://www.asseta.com/tos.html
+- type: PrivacyPolicy
+  url: https://www.asseta.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
