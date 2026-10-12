@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/asseta/integrations
+- https://n8n.io/integrations/asseta/
+- https://composio.dev/toolkits/asseta
+- https://monid.ai/tools/asseta
+checked:
+- https://composio.dev/toolkits/asseta
+- https://monid.ai/tools/asseta
+- https://n8n.io/integrations/asseta/
+- https://zapier.com/apps/asseta/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
